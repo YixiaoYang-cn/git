@@ -1,0 +1,51 @@
+﻿# System files
+Thumbs.db
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.user
+*.vs/
+
+# Build artifacts
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.lib
+*.class
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Git
+.git/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
